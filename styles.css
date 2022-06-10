@@ -60,6 +60,8 @@ h1 {
 
 h2 {
     color: #e75605;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 button {
     border: 3px solid #e75605;
@@ -69,7 +71,22 @@ button {
     font-size: 0.7rem;
     padding: 7px 15px;
 }
-
+.imgcontainer  img {
+    width: 100%;
+}
 .menu {
     display: flex;
+}
+.textcontainer, 
+.imgcontainer {
+    width: 50%;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+}
+.menu .textcontainer {
+    padding: 70px 60px 20px 45px;
 }

@@ -45,17 +45,27 @@ h1 {
     color: #e75605;
     font-size: 5rem;
     text-align: end;
-    display: block;
     font-family: 'Montserrat', sans-serif;
     max-width: 400px;
-    margin: 200px 77px 0;
     font-weight: 400;
+    margin: 0 90px 0 0;
 }
 .title {
     display: flex;
+    justify-content: flex-end;
+    margin-top: 246px;
+}
+.icons {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: flex-end;
+    margin-top: 40px;
+
+}
+
+i {
+    color: #e75605;
+    margin-bottom: 15px; 
+
 }
 
 h2 {
@@ -83,7 +93,7 @@ button {
     width: 50%;
 }
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.1rem;
@@ -115,4 +125,39 @@ div .desserts {
     max-height: 280px;
     margin-left: 50px;
 }
-
+.external {
+    background-color: #e75605;
+}
+h3 {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.external i {
+    color: white;
+}
+.iconContainer {
+    text-align: center;
+    padding: 140px 0 140px 0;
+}
+.external .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.imgcontainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery {
+    margin-top: 110px;
+}
+.imgcontainer3 img {
+    width: 300px;
+    height: 300px;
+}

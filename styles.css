@@ -134,8 +134,9 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
-.external i {
+a i {
     color: white;
+    font-size: 28px;
 }
 .iconContainer {
     text-align: center;
@@ -161,3 +162,16 @@ h3 {
     width: 300px;
     height: 300px;
 }
+a:hover {
+    color:#e75605;
+}
+a:focus {
+    color:#e75605;
+    border: none;
+}
+button:hover {
+    background-color: #e75605;
+} 
+button:focus {
+    background-color: #e75605;
+} 

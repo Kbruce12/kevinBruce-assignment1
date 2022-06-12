@@ -175,3 +175,36 @@ button:hover {
 button:focus {
     background-color: #e75605;
 } 
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+footer {
+    background-color: rgb(245, 245, 245);
+    margin-top: 80px;
+}
+footer nav {
+    padding-top: 50px;
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+fieldset input {
+    border: none;
+    width: 300px;
+    height: 38px;
+}
+fieldset button {
+    margin: 0;
+}
+.copyright p {
+    text-align: center;
+    background-color: black;
+    color:rgb(207, 206, 206);
+    padding: 4px 0 4px 0;
+}
+    
+

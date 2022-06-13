@@ -87,6 +87,7 @@ button {
 }
 .menu {
     display: flex;
+    flex-wrap: wrap;
 }
 .textcontainer, 
 .imgcontainer {
@@ -177,6 +178,7 @@ button:focus {
 } 
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
 
@@ -205,6 +207,84 @@ fieldset button {
     background-color: black;
     color:rgb(207, 206, 206);
     padding: 4px 0 4px 0;
+}
+
+@media (max-width:1000px){
+    .menu .textcontainer {
+        padding: 1px 60px 20px 45px;
+    }
+}
+@media (max-width:800px){
+    .menu {
+        flex-direction: column;
+    }
+    .imgcontainer img {
+        width: 100%;
+        height: 340px;
+    }
+    .desserts {
+        flex-direction: column;
+    }
+    p {
+        text-align: center;
+    }
+    .textcontainer, 
+    .imgcontainer {
+    width: 100%;
+    }
+    h2 {
+        text-align: center;
+    }
+    .textcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu2 {
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desserts .textcontainer {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .desserts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .desserts img {
+        margin: 0;
+    }
+}
+@media (max-width: 400px){
+    .menu2 {
+        height: 705px;
+    }
+    .external .wrapper {
+        flex-direction: column;
+    }
+    .iconContainer {
+        text-align: center;
+        padding: 5px 0 10px 0;
+        margin-top: 15px;
+    }
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+    fieldset button {
+        width: 300px;
+        margin-top: 4px;
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 38px 90px 0 0;
+    }
 }
     
 

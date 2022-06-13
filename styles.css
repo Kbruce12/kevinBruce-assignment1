@@ -40,7 +40,7 @@ a {
     text-transform: uppercase;
     font-size: 0.8rem;
 }
-.title i {
+.menuBar i {
     position: absolute;
     top: -30px;
 }
@@ -264,6 +264,23 @@ fieldset button {
     .desserts img {
         margin: 0;
     }
+    .container {
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        position: absolute;
+        top: -32px;
+    
+    }
+    header {
+        margin-top: 300px;
+    }
+    h1 {
+        position: absolute;
+        top: 100px;
+        left: 43px;
+    }
 }
 @media (max-width: 400px){
     .menu2 {
@@ -287,11 +304,13 @@ fieldset button {
     }
     h1 {
         font-size: 3rem;
-        margin: 0px 50px 0 0;
-    }
-    header nav {
+        margin: 0px 110px 0 0;
         position: absolute;
-        top: -30px;
+        top: 3px;
+    }
+    nav {
+        position: absolute;
+        top: -90px;
     }
     div .title {
         margin: 0;
@@ -299,12 +318,17 @@ fieldset button {
     header {
         background-size: contain;
         height: 350px;
+        margin-top: 100px;
     }
-    .icons {
+    .title {
+        justify-content: space-evenly;
+    }
+    .icons i {
         position: absolute;
         top: -180px;
+        right: -360px;
     }
-    .title i {
+    .menuBar i {
         position: absolute;
         right: 30px;
         top: 25px;

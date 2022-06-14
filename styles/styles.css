@@ -16,7 +16,7 @@ html {
     margin: 0 auto;
 }
 header {
-    background-image: url(./assets/header-burger.png);
+    background-image: url(../assets/header-burger.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 600px;
@@ -245,7 +245,7 @@ fieldset button {
         align-items: center;
     }
     .menu2 {
-        height: 580px;
+        height: 590px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -280,6 +280,9 @@ fieldset button {
         position: absolute;
         top: 100px;
         left: 43px;
+    }
+    .imgcontainer3 img {
+        padding: 10px;
     }
 }
 @media (max-width: 400px){
